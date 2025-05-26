@@ -1,7 +1,7 @@
 {
   "name": "create-vuedosam",
-  "version": "1.0.0",
-  "description": "CLI para criar projetos Vue com o template do Sam",
+  "version": "1.0.1",
+  "description": "CLI to create a basic Vue project with Typescript, i18n and router",
   "bin": {
     "create-vuedosam": "./index.js"
   },

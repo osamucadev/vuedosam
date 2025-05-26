@@ -17,15 +17,15 @@ const templatePath = path.resolve(__dirname, "template");
       fs.mkdirSync(destPath, { recursive: true });
     }
 
-    console.log(`🚀 Copiando arquivos para ${destPath}`);
+    console.log(`🚀 Copying files to ${destPath}`);
     await fse.copy(templatePath, destPath, {
       overwrite: true,
       errorOnExist: false,
     });
 
-    console.log("✅ Projeto criado com sucesso!");
+    console.log("✅ Project created successfully!");
   } catch (e) {
-    console.error("❌ Erro ao criar projeto:", e);
+    console.error("❌ Failed to create project:", e);
     process.exit(1);
   }
 })();
