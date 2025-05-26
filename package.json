@@ -1,0 +1,19 @@
+{
+  "name": "create-vuedosam",
+  "version": "1.0.0",
+  "description": "CLI para criar projetos Vue com o template do Sam",
+  "bin": {
+    "create-vuedosam": "./index.js"
+  },
+  "keywords": [
+    "vue",
+    "template",
+    "scaffold",
+    "cli"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
