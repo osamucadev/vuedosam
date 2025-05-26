@@ -11,7 +11,7 @@ npm create vuedosam@latest
 ## 🚀 Features
 
 - Vue 3 + Vite-based template
-- Typescript
+- TypeScript
 - Routes
 - Preconfigured project structure
 - Supports creation in the current directory or a new folder
@@ -60,15 +60,15 @@ my-app/
 ├── public/
 ├── src/
 │   ├── components/
-|   ├── i18n/
-|       ├── locales/
-|       └── index.ts
-|   ├── router/
-|       └── index.ts
+│   ├── i18n/
+│   │   ├── locales/
+│   │   └── index.ts
+│   ├── router/
+│   │   └── index.ts
 │   ├── views/
-|   ├── App.vue
-|   ├── style.css
-|   ├── main.ts
+│   ├── App.vue
+│   ├── style.css
+│   ├── main.ts
 │   └── vite-env.d.ts
 ├── .env
 ├── .gitignore
@@ -91,4 +91,38 @@ my-app/
 
 - Vue 3
 - Vite
-- Optional: additional libraries depending on your template (e.g., Vue Router)
+- Optional: additional libraries depending on your template (e.g., Vue Router and i18n)
+
+---
+
+## ▶️ Getting Started
+
+After the project is created:
+
+### If you used a **new folder** (e.g. `my-app`):
+
+```bash
+cd my-app
+```
+
+### Then, install the dependencies:
+
+```bash
+npm install
+# or
+pnpm install
+# or
+yarn install
+```
+
+### And run the development server:
+
+```bash
+npm run dev
+# or
+pnpm dev
+# or
+yarn dev
+```
+
+Your app should now be running at `http://localhost:5173`.
